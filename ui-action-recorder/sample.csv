@@ -1,0 +1,41 @@
+Test Case ID,Title,Folder,State,Tags,Steps,Results,Type of Test Case,Priority,Estimate,Owner,Jira Issues,Automation Status
+1,Verify the links in the role details page.,Role > New Role,Active,"sprint2,role","1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Manual,Medium,20s,John Smith,"TES-10,TES-11",Not Automated
+2,Verify the admin log out successfully.,Role > New Role,Active,"sprint2,role","1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Manual,Medium,5m,Mark Brown,"TES-10,TES-11",Not Automated
+3,"To ensure that the buttons, which have the same function should also have the same color.",Usability,Draft,usability,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Manual,Low,2h 5s,Mark Brown,"TES-10,TES-11",Not Automated
+4,Verify if the user is able to create a new account.,Transaction > Net Banking,Active,"sprint5,transaction","1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Manual,Very Low,1d 7h 15m 20s,Robert Davies,"TES-10,TES-11",Not Automated
+5,Test the search functionality by searching for a term with spaces in between.,Application > Search > Search functionality,Active,search_functionality,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Security,High,10d 5m,Mark Brown,"TES-10,TES-11",Not Automated
+6,Verify the role deletion process with and without dependency.,Role > New Role,Draft,"sprint2,role",1. This is sample step 1 for this test case. The steps can be very long. The steps can be very long. The steps can be very long. The steps can be very long. The steps can be very long. The steps can be very long. The steps can be very long. The steps can be very long.,This test case should give intended result as per steps 1 to steps 3. The Results can be very long. The Results can be very long. The Results can be very long. The Results can be very long. The Results can be very long. The Results can be very long.,Accessibility,Critical,1h,John Smith,"TES-10,TES-11",Not Automated
+7,To determine whether the application performs as per the requirement under different load conditions.,Performance,Active,performance,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Security,Medium,10m,Illeana Thomas,"TES-10,TES-11",Not Automated
+8,Check whether the application allows multiple invalid logins.,Security,Draft,security,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Security,Medium,20s,Robert Davies,"TES-10,TES-11",Not Automated
+9,Check whether the field accepts invalid values.,Functional,Draft,functional,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Automated,Medium,10d 5m,Mark Brown,"TES-10,TES-12",Not Automated
+10,Check whether the Back button in the keypad/ icon in the browser is disabled for certain pages.,Security,Active,security,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Automated,Medium,30m,Peter Jones,"TES-10,TES-13",Not Automated
+11,Check whether the data is still there even when the operation fails.,Database,Active,database,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Automated,Low,5m,Mark Brown,"TES-10,TES-14",Not Automated
+12,Check whether all the links inside each page are clicked and on clicking navigate to the expected page.,Functional,Draft,functional,"1. This is sample step 1 for this test case
+2. This is sample step 2 for this test case
+3. This is sample step 3 for this test case",This test case should give intended result as per steps 1 to steps 3,Accessibility,Low,10d 5m,Mark Brown,"TES-10,TES-15",Not Automated
+13,"Check if the terms and labels of each function are followed through the application consistently, one page should not mention FD and another page as fixed deposit.",Functional,Active,functional,1. This is sample step 1 for this test case,This test case should give intended result as per step 1,Automated,Critical,15s,Illeana Thomas,"TES-10,TES-15",Not Automated
+,,,,,2. This is sample step 2 for this test case,This test case should give intended result as per step 2,,,,,,
+,,,,,3. This is sample step 3 for this test case,This test case should give intended result as per step 3,,,,,,
+14,Test that the search results are displayed correctly when no results are found.,Application>Search>Search results,Draft,search_functionality,1. This is sample step 1 for this test case,This test case should give intended result as per step 1,Smoke & Sanity,Critical,22m,Mark Brown,"TES-10,TES-15",Not Automated
+,,,,,2. This is sample step 2 for this test case,This test case should give intended result as per step 2,,,,,,
+,,,,,3. This is sample step 3 for this test case,This test case should give intended result as per step 3,,,,,,

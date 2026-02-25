@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Action Recorder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 data-i18n="appTitle">UI Action Recorder</h1>
+      <div class="controls">
+        <select id="langSelect" class="lang-select">
+          <option value="tr">TR</option>
+          <option value="en">EN</option>
+        </select>
+        <button id="startBtn" class="btn btn-start" data-i18n="startRecording">Start Recording</button>
+        <button id="stopBtn" class="btn btn-stop" style="display:none;" data-i18n="stopRecording">Stop Recording</button>
+      </div>
+    </header>
+
+    <!-- Session List View -->
+    <div id="sessionListView">
+      <div class="section-header">
+        <span data-i18n="savedRecords">Saved Records</span>
+      </div>
+      <div id="sessionList" class="session-list">
+        <div class="empty-state" data-i18n="emptyState">No records yet. Click "Start Recording" and interact with a web page.</div>
+      </div>
+    </div>
+
+    <!-- Session Detail View -->
+    <div id="sessionDetailView" style="display:none;">
+      <div class="detail-header">
+        <button id="backBtn" class="btn-icon" data-i18n-title="back">&larr;</button>
+        <div class="detail-title-section">
+          <input type="text" id="detailTitleInput" class="detail-title-input" data-i18n-placeholder="testCaseTitle" placeholder="Test Case Title" />
+          <textarea id="detailDescInput" class="detail-desc-input" data-i18n-placeholder="testCaseDescription" placeholder="Test Case Description" rows="2"></textarea>
+          <textarea id="detailPreconditionInput" class="detail-precondition-input" data-i18n-placeholder="testCasePrecondition" placeholder="Preconditions" rows="2"></textarea>
+        </div>
+        <div class="detail-actions">
+          <button id="addStepBtn" class="btn btn-sm btn-add" data-i18n="addStep">Add Step</button>
+          <select id="exportSelect" class="btn btn-sm export-select">
+            <option value="" data-i18n="exportFormat">Export</option>
+            <option value="json" data-i18n="exportJsonFormat">JSON (with XPath)</option>
+            <option value="text" data-i18n="exportTextFormat">Text (Steps only)</option>
+            <option value="browserstack" data-i18n="exportBrowserStackFormat">BrowserStack CSV</option>
+          </select>
+          <button id="deleteSessionBtn" class="btn btn-sm btn-danger" data-i18n="delete" data-i18n-title="delete">Delete</button>
+        </div>
+      </div>
+      <div id="detailInfo" class="detail-info"></div>
+      <div id="actionList" class="action-list"></div>
+    </div>
+  </div>
+
+  <div class="copied-toast" id="toast">Copied!</div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

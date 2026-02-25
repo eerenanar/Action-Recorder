@@ -1,0 +1,18 @@
+Test Case ID,Title,Folder,State,Tags,Steps,Results,Type of Test Case,Priority,Estimate,Duration,Owner,Jira Issues,Automation Status
+1,Record 1,Automation,Active,automation,"1. ""Integrated Platforms"" link clicked
+2. dfsdfs
+3. ""Search"" field clicked
+4. ""snowfla"" typed in ""Search"" field
+5. ""snowflae"" typed in ""Search"" field
+6. ""All Statuses"" dropdown clicked
+7. ""Available"" option clicked
+8. ""Active"" option clicked
+9. div element clicked","1. clicked
+2. Step 2 executed successfully
+3. tıklandı babaaa
+4. Step 4 executed successfully
+5. Step 5 executed successfully
+6. Step 6 executed successfully
+7. Step 7 executed successfully
+8. Step 8 executed successfully
+9. Step 9 executed successfully",Automated,Medium,18s,1m,Test User,,Automated
